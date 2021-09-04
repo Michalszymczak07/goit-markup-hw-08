@@ -1,0 +1,53 @@
+
+.lorem-ipsum__description {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+  color: var(--third-color);
+  margin-bottom: 30px;
+}
+.our-team__description {
+  font-size: 16px;
+  color: var(--third-color);
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.projects__description {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--third-color);
+}
+
+@media screen and (min-width: 768px)  and (max-width: 1199px)   {
+.lorem-ipsum__description {
+  width: 354px;
+  padding-bottom: 45px;
+  text-align: left;
+}
+}
+@media screen and (min-width: 1200px) {
+.projects__description {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: var(--third-color);
+}
+.our-team__description {
+  font-size: 16px;
+  color: var(--third-color);
+  line-height: 1.187;
+  letter-spacing: 0.03em;
+  text-align: center;
+}
+.lorem-ipsum__description {
+  text-align: left;
+      &:not(:last-child) {
+      margin-right: 30px;
+}
+}
+}
