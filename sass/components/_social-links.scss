@@ -1,0 +1,66 @@
+.social-icon {
+  width: 20px;
+  height: 20px;
+}
+.our-team__link {
+  background-color: var(--fourth-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: #afb1b8;
+
+      &:hover,
+      &:focus {
+      fill: var(--fourth-color);
+       background: var(--main-color);;
+
+}
+       &:not(:last-child) {
+       margin-left: 10px;
+}
+}
+.footer__link {
+  background-color: rgba(255, 255, 255, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--fourth-color);
+
+        &:hover {
+         fill: var(--fourth-color);
+         background: var(--main-color);;
+}
+}
+.footer-icons {
+  width: 20px;
+  height: 20px;
+
+          &:hover {
+            fill: var(--fourth-color);
+            background: var(--main-color);
+}
+          &:focus {
+            fill: var(--fourth-color);
+            background: var(--main-color);
+}
+}
+
+
+
+  
+
+
+
+
+
+
+
+
+
+

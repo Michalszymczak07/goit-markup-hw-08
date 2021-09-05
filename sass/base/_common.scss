@@ -1,0 +1,88 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0;
+}
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+p {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--secondary-color);
+  background: var(--main-background);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+
+}
+  .list {
+    list-style: none;
+}
+  .our-team__icon-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+  }
+  .clients__list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-right__list {
+    display: flex;
+  }
+  .footer-left__list {
+  & .contact__address {
+    color: var(--fourth-color);
+  }
+}
+
+@media screen and (min-width: 768px)  and (max-width: 1199px)   {
+.list {
+  display:flex;
+  flex-wrap: wrap;
+}
+.header .contact { 
+  display:block;
+}
+.clients__list {
+    justify-content: center;
+    justify-content: space-between;
+  }
+.footer-right__list {
+  justify-content: center;
+}
+.footer-left__list{
+  list-style: none;
+  margin-top: 20px;
+}
+
+.nav {
+  display: flex;
+}
+}
+
+
+@media screen and (min-width: 1200px) {
+
+.list {
+  display: flex;
+
+}
+.clients__list {
+  flex-wrap: nowrap;
+}
+}
